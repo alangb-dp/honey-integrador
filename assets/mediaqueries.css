@@ -1,5 +1,12 @@
-/* PHONE */
-@media (max-width: 992px) {
+/* MOBILE */
+@media (max-width: 925px) {
+
+    body{
+        background: url(/assets/img/miel2.jpg);
+        
+    }
+
+
     header{
         background-color: #efdc30;
         margin: 0;
@@ -120,6 +127,67 @@
         color: #e8eaf6;
 
 
+    }
+
+    #hero{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .info-landing{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-landing h1{
+        width: 50px;
+        font-size: 35px;
+        font-family: 'Lemonada', cursive;
+        font-weight: 400;
+
+    }
+
+    .text-landing span{
+        margin-left: 20px;
+    }
+
+    .text-landing p{
+        margin-right: 100px;
+        margin-left: 20px;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+
+    }
+
+    .social-landing img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .landing-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 70px;
+    }
+
+    .landing-btn button{
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        background: #fffc00;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        border: none;
+        border-radius: 1rem;
+        
     }
     
 }
